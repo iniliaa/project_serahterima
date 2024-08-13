@@ -26,6 +26,9 @@ body {
   font-weight: 600;
   text-align: left;
 }
+.dropdown-menu li a{
+  color: black !important;
+}
 .fa-bars
 {
   color: #fff;
