@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #nav-bar {
   position: sticky;
@@ -24,7 +24,17 @@ body {
 .navbar-nav li a {
   color: #fff !important;
   font-weight: 600;
+  text-align: left;
 }
+.fa-bars
+{
+  color: #fff;
+  font-size: 30px !important;
+}
+.navbar-toggler
+{
+  outline: none !important;
+} 
 #banner {
   background-image: linear-gradient(to right, #87cefa, #00bfff);
   color: #fff;
@@ -39,6 +49,11 @@ body {
   width: 100px;
   margin: 20px;
 }
+#banner a
+{
+  color: #fff;
+  text-decoration: none;
+}
 .bottom-img {
   width: 100%;
 }
@@ -52,7 +67,9 @@ body {
 }
 .card {
   align-items: center;
+  margin-top: 50px;
 }
 .card > img {
   width: 4rem;
+  margin-top: 10px;
 }
