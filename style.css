@@ -21,23 +21,18 @@ body {
 .navbar-nav li {
   padding: 0 10px;
 }
-.navbar-nav li a {
+/* .navbar-nav li a {
   color: #fff !important;
   font-weight: 600;
   text-align: left;
-}
-.dropdown-menu li a{
+} */
+/* .dropdown-menu li a{
   color: black !important;
-}
-.fa-bars
-{
-  color: #fff;
-  font-size: 30px !important;
 }
 .navbar-toggler
 {
   outline: none !important;
-} 
+}  */
 #banner {
   background-image: linear-gradient(to right, #87cefa, #00bfff);
   color: #fff;
